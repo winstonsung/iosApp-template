@@ -1,0 +1,42 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "content_greeting" : {
+      "comment" : "Greeting text in content",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Hello, %1$@, %2$@!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello, %2$@, %1$@!"
+          }
+        }
+      }
+    },
+    "content_greeting_styled" : {
+      "comment" : "Styled greeting text in content",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "**Hello**, %1$@, %2$@!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Hello**, %2$@, %1$@!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
